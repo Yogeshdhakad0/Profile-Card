@@ -1,0 +1,273 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Global variable */
+:root {
+    /* --primary-color: #3498db; */
+    /* --font-size: 16px; */
+  }
+  
+
+    /* font-size: var(--font-size); */
+    /* color: var(--primary-color); */
+ 
+  
+
+    .main_contnaier{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: rgb(197,201,223);
+
+    }
+    .profie_card_contnainer{
+        /* border: 2px solid rgb(0, 255, 55); */
+        /* width:  23%; */
+        height: 400px;
+        position: relative;
+
+
+    }
+    .backgorund_color{
+        /* border: 2px solid rgb(238, 255, 0); */
+        width:     200px;
+        /* overflow: auto; */
+        margin-left: 40px;
+        height: 350px;
+        padding-top:30px;
+        padding-bottom:30px;
+        background-color:rgb(20,26,65);
+        border-radius: 9px;
+    }
+    .card{
+        margin-left: -30px;
+        /* left: 1px; */
+        position: relative;
+        z-index: 9;
+        /* border: 2px solid rgb(55, 0, 255); */
+        width:   19vw;
+        height: 280px;
+        background-color: rgb(255,255,255);
+        border-radius:12px;
+        
+
+background-image: url('Screenshot\ 2024-12-17\ 210241.png112.png');
+background-size: cover;
+object-fit: cover;
+background-repeat: no-repeat;
+
+        /* background-color:  transparent; */
+        /* background: radial-gradient(circle, rgb(177, 205, 236) 30%, rgb(255, 255, 255) 30%, rgb(177, 205, 236) 60%, rgb(255, 255, 255) 60%); */
+
+    
+    }
+    .card .lcons{
+
+        /* border: 2px solid rgb(21, 255, 0); */
+        width: 100%;
+        display: flex; justify-content: space-between;
+
+      
+        
+    }
+
+
+
+    .card .lcons .fa-solid{
+        /* width: 100%; */
+color: black;
+        margin:20px 5px 0px 0px ;
+    
+        /* border: 2px solid rgb(55, 0, 255); */
+        width: 45px;
+        color: rgb(59, 55, 55);
+        margin-left: 20px;
+    }
+    .card .lcons .right{
+        color: black;
+        margin:20px 5px 0px 0px ;
+    
+        /* border: 2px solid rgb(30, 255, 0); */
+        width: 45px;
+      text-align: end;
+        margin-right: 20px;
+        color: rgb(59, 55, 55);
+    }
+
+
+     .card .text-contanier{
+     text-align: center;
+     /* z-index: 5; */
+     }
+     /* .color{
+        position: absolute;
+        top: 100px;
+        width: 200px;
+        border: 2px solid rgb(55, 0, 255);
+padding: 50px;
+        background: rgb(177, 205, 236);
+        background: radial-gradient(circle, rgb(184, 207, 233) 6%, rgb(201, 218, 238) 13%, rgba(243,245,249,1) 59%);
+        background-color:  transparent;
+     } */
+     
+     .imge_main{
+/* border: 2px solid red; */
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 90px;
+height: 90px;
+background-color: white;
+
+border-radius: 50px;
+
+margin-left: 85px;
+     }
+     
+     .imge_main img{
+/* border: 2px solid red; */
+width:  80px;
+height: 80px;
+border-radius: 50px;
+object-fit: cover;
+background-position: center;
+background-size: cover;
+     }
+     
+     
+     .card .text-contanier  h3{
+        font-weight: 700;
+        font-size: 18px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color: rgb(20,26,65);
+        margin-top: 20px;
+        margin-bottom: 8px;
+        
+      }
+      button{
+        margin-top: 13px;
+    background-color: rgb(20,26,65);
+    color: white;
+font-size: 12px;
+border: none;
+border-radius: 16px;
+width: 100px;
+padding: 9px 0px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: "Kanit", sans-serif;
+font-weight: 100;
+
+      }
+      h4{
+        /* border: 2px solid red; */
+        /* margin-bottom: -10px; */
+        /* font-family: "Kanit", sans-serif; */
+        font-family: 'Times New Roman', Times, serif;
+        display: none;
+      }
+      @media (max-width:430px) {
+        
+    .main_contnaier{
+        display: flex;
+        align-items: normal;
+        padding: 0px 60px;
+    }
+    .card{
+        width:   60vw;
+        height: 280px;
+    }
+    
+    .backgorund_color{
+        width:     200px;
+        margin-left: 40px;
+        height: 340px;
+    }
+
+
+      }
+
+
+
+      @media (max-width:375px) {
+        .card{
+          width:   70vw;
+          height: 280px;
+      }
+      }
+
+
+      @media (max-width:330px) {
+        .main_contnaier{
+           
+            padding: 0px 30px;
+        /* flex: none; */
+        }
+        .card{
+            width:   80vw;
+            height: 280px;
+        }
+      }
+
+
+
+
+      
+.container {
+    position: relative;
+    z-index: 1 ;
+    width:  200px;
+    height:  130px;
+    /* border: 2px solid red; */
+    top: -180px;
+    background-color: transparent;
+    /* overflow:auto; */
+   
+  }
+  
+  /* Circle Design */
+  .circle {
+    position: relative;
+ 
+    border-radius: 50%;
+    filter: blur(90px); /* Apply blur effect */
+    border: 2px solid rgb(43, 255, 0);
+  }
+  
+  /* Blue Circle */
+  .blue-circle {
+    width:  100px;
+    height:  200px;
+    border: 2px solid red;
+    background-color: #568ef5; /* Light blue */
+    /* top: 20%; */
+    /* left: 25%; */
+    /* background-color: transparent; */
+  }
+  
+  /* White Circle */
+  /* .white-circle { */
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: #ffffff; White */
+    /* background-color: transparent; */
+    /* top: 40%; */
+    /* left: 40%; */
+    /* opacity: 0.8; Slight transparency */
+  /* } */
+  
